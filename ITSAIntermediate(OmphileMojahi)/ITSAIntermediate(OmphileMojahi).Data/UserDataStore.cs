@@ -4,7 +4,6 @@ namespace ITSAIntermediate_OmphileMojahi_.Data
 {
     public partial class UserDataStore : IUserDataStore
     {
-
         private readonly ApplicationDbContext _context;
 
         public UserDataStore(ApplicationDbContext context)
