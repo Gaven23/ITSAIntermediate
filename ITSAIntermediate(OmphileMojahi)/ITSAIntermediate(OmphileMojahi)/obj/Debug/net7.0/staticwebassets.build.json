@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PxLF1UHxAK85OzNSIHcbfws8B3pxgndGOG0+O43neZU=",
+  "Hash": "AGC8UVUPxp6384A6ww3fMbwCVuC1GquU8yqE2BXWMyI=",
   "Source": "ITSAIntermediate(OmphileMojahi)",
   "BasePath": "_content/ITSAIntermediate(OmphileMojahi)",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Omphile.Mojahi\\source\\repos\\Gaven23\\ITSAIntermediate\\ITSAIntermediate(OmphileMojahi)\\ITSAIntermediate(OmphileMojahi)\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ITSAIntermediate(OmphileMojahi).bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Omphile.Mojahi\\source\\repos\\Gaven23\\ITSAIntermediate\\ITSAIntermediate(OmphileMojahi)\\ITSAIntermediate(OmphileMojahi)\\wwwroot\\css\\app.css.css",
+      "SourceId": "ITSAIntermediate(OmphileMojahi)",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Omphile.Mojahi\\source\\repos\\Gaven23\\ITSAIntermediate\\ITSAIntermediate(OmphileMojahi)\\ITSAIntermediate(OmphileMojahi)\\wwwroot\\",
+      "BasePath": "_content/ITSAIntermediate(OmphileMojahi)",
+      "RelativePath": "css/app.css.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css.css"
     },
     {
       "Identity": "C:\\Users\\Omphile.Mojahi\\source\\repos\\Gaven23\\ITSAIntermediate\\ITSAIntermediate(OmphileMojahi)\\ITSAIntermediate(OmphileMojahi)\\wwwroot\\css\\site.css",

@@ -2,6 +2,7 @@ IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo
 BEGIN
 CREATE TABLE [dbo].[Company](
 	[CompanyId] [uniqueidentifier] NOT NULL,
+	[UserId] [uniqueidentifier] NOT NULL,
 	[Name] [nvarchar](50) NOT NULL,
 	[EmailAddress] [nvarchar](50) NOT NULL,
 	[ContactNumber] [nvarchar](50) NOT NULL,

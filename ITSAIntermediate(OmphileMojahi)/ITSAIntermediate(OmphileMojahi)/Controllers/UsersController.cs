@@ -12,35 +12,57 @@ namespace ITSAIntermediate_OmphileMojahi_.Controllers
         {
             _userDataStore = dataStore;
         }
-        public IActionResult Index()
-        {
-            //Get List Of Users
-            return View();
-        }
-
+        /// <summary>
+        /// Get list of user's.
+        /// </summary>
+        /// 
         [HttpGet]
-        public async Task<IActionResult> GetUser(Guid userId)
+        public async Task<IActionResult> Index()
         {
+            var service = new UserService(_userDataStore);
 
+            var result = await service.GetUsersAsync();
 
-            return Ok();
+            return View(result);
+        }
+        /// <summary>
+        /// Get user details.
+        /// </summary>
+        /// 
+
+        [Route("/Users/ViewUserDetailsAsync/{userId}")]
+        [HttpGet]
+        public async Task<IActionResult> ViewUserDetailsAsync(Guid userId)
+        {
+            var service = new UserService(_userDataStore);
+
+            var result = await service.GetUserAsync(userId);
+
+            return View(result);
         }
 
         /// <summary>
         /// Create User.
         /// </summary>
         /// 
+        public IActionResult Create()
+        {
+            return View();
+        }
         [HttpPost]
         public async Task<IActionResult> Create(Users user)
         {
+            if (ModelState.IsValid)
             {
                 if (user is null)
                     return BadRequest(new ProblemDetails { Detail = "user required." });
                 var service = new UserService(_userDataStore);
+                user.UserId = Guid.NewGuid();
                 await service.CreateUserAsync(user);
-
-                return Ok(user);
+                return RedirectToAction(nameof(Index)); 
             }
+
+            return View(user);
         }
     }
 }

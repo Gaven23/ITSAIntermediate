@@ -1,0 +1,214 @@
+﻿@{
+    ViewData["Title"] = "Create User";
+}
+
+@model ITSAIntermediate_OmphileMojahi_.Data.Models.Users;
+
+<div class="col-md-5" style="margin:20px 20px; width:80%; height:150%; background-color:lightseagreen">
+    @using (Html.BeginForm())
+    {
+        <h3 style="text-align:center;">Create User!</h3>
+        <div style="width:60%; margin:0 auto;padding:20px;">
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label for="Name">Name:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Name" placeholder="User Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Surname:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Surname" placeholder="Surname">
+                    <span asp-validation-for="Surname" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Identity Number:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="IdentityNumber" placeholder="Identity Number">
+                    <span asp-validation-for="IdentityNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Contact Number:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="ContactNumber" placeholder="Identity Number">
+                    <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Email Address:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="EmailAddress" placeholder="Email Address">
+                    <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <h5>User Address:</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Country:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Address.Country" placeholder="Registration Number">
+                    <span asp-validation-for="Address.Country" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Province:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Address.Province" placeholder="Province">
+                    <span asp-validation-for="Address.Province" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>City:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Address.City" placeholder="City">
+                    <span asp-validation-for="Address.City" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Suburb:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Address.Suburb" placeholder="Suburb">
+                    <span asp-validation-for="Address.Suburb" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Postal Code:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Address.PostalCode" placeholder="Postal Code">
+                    <span asp-validation-for="Address.PostalCode" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Complex Name:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Address.ComplexName" placeholder="Complex Name">
+                    <span asp-validation-for="Address.ComplexName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Complex Name:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Address.UnitNumber" placeholder="Unit Number">
+                    <span asp-validation-for="Address.UnitNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <h5>User Employee Details:</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Department:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Employee.Department" placeholder="Department">
+                    <span asp-validation-for="Employee.Department" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Role:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Employee.Role" placeholder="Role">
+                    <span asp-validation-for="Employee.Role" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Salary:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Employee.Salary" placeholder="Salary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <h5>Company Details:</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Company Name:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Company.Name" placeholder="Company Name">
+                    <span asp-validation-for="Company.Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Company Email Address:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Company.EmailAddress" placeholder="Email Address">
+                    <span asp-validation-for="Company.EmailAddress" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Contact Number:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Company.ContactNumber" placeholder="Contact Number">
+                    <span asp-validation-for="Company.ContactNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Company Registration Number:</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Company.RegistrationNumber" placeholder="Registration Number">
+                    <span asp-validation-for="Company.RegistrationNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding:10px">
+                    <label>Business Type</label>
+                </div>
+                <div class="col-md-6" style="padding:10px">
+                    <input class="edit-input-tag " type="text" asp-for="Company.BusinessType" placeholder="Registration Number">
+                    <span asp-validation-for="Company.BusinessType" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="row" style="margin-top:12px;text-align:center;">
+                <button type="submit" value="Create" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    }
+</div>

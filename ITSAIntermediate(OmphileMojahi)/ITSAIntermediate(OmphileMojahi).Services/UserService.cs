@@ -12,6 +12,16 @@ namespace ITSAIntermediate_OmphileMojahi_.Services
             _userDataStore = dataStore;
         }
 
+        public async Task<IEnumerable<Users>> GetUsersAsync()
+        {
+            var users = await _userDataStore.GetUsersAsync();
+
+            if (users == null)
+                return Enumerable.Empty<Users>();
+
+            return users;
+        }
+
         public async Task CreateUserAsync(Users user)
         {
             if (user is not null)
@@ -20,9 +30,11 @@ namespace ITSAIntermediate_OmphileMojahi_.Services
                 throw new InvalidOperationException("");
         }
 
-        public async Task<Users> GetUserAsync(Users user)
+        public async Task<Users> GetUserAsync(Guid userId)
         {
-                throw new InvalidOperationException("");
+            var user = await _userDataStore.GetUserAsync(userId);
+
+            return user ?? new();
         }
     }
 }

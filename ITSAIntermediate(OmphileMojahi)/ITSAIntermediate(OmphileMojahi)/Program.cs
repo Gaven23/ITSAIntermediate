@@ -1,5 +1,4 @@
 using ITSAIntermediate_OmphileMojahi_.Data;
-using ITSAIntermediate_OmphileMojahi_.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +28,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Users}/{action=Index}/{id?}");
+    pattern: "{controller=Users}/{action=Create}/{id?}");
 
 app.Run();
