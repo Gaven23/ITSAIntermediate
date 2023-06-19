@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nGXyJy+2LuYdty14OltzhjNOXe34pTrqQhO+VTwfIRjPG0wVzh70oUgqJcmfQ4ihXpv9bYLK6H5RL0uMfCf5wQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Omphile.Mojahi\\source\\repos\\Gaven23\\ITSAIntermediate\\ITSAIntermediate(OmphileMojahi)\\ITSAIntermediate(OmphileMojahi).Test\\ITSAIntermediate(OmphileMojahi).Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Omphile.Mojahi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

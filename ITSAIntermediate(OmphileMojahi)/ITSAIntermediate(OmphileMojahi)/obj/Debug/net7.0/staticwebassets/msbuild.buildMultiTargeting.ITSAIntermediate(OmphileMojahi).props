@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ITSAIntermediate(OmphileMojahi).props" />
+</Project>

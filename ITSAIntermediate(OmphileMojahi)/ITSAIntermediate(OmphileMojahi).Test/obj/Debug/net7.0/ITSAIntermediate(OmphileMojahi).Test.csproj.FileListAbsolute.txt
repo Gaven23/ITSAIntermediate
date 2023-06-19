@@ -1,0 +1,17 @@
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\bin\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.exe
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\bin\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.deps.json
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\bin\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.runtimeconfig.json
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\bin\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.dll
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\bin\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.pdb
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.csproj.AssemblyReference.cache
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.AssemblyInfoInputs.cache
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.AssemblyInfo.cs
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.csproj.CoreCompileInputs.cache
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.csproj.CopyComplete
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.dll
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\refint\ITSAIntermediate(OmphileMojahi).Test.dll
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.pdb
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ITSAIntermediate(OmphileMojahi).Test.genruntimeconfig.cache
+C:\Users\Omphile.Mojahi\source\repos\Gaven23\ITSAIntermediate\ITSAIntermediate(OmphileMojahi)\ITSAIntermediate(OmphileMojahi).Test\obj\Debug\net7.0\ref\ITSAIntermediate(OmphileMojahi).Test.dll
