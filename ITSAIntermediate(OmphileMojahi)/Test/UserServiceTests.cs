@@ -26,9 +26,9 @@ namespace Test
         }
 
         [Fact]
-        public void GetUsersAsync()
+        public async Task GetUsersAsync()
         {
-            var results = _service.GetUsersAsync();
+            var results = await _service.GetUsersAsync();
             // then - expect not empty/null
             Assert.NotEmpty((System.Collections.IEnumerable)results);
         }

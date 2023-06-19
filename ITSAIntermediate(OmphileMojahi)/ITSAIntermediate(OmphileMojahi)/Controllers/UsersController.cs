@@ -49,6 +49,7 @@ namespace ITSAIntermediate_OmphileMojahi_.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> Create(Users user)
         {
